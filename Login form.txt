@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+       
+<form action="action_page.php" method="post">
+</head>
+    <body>
+        
+        <h1>Login Form</h1> 
+ 
+
+
+  <div class="container">
+    
+  
+ <div class="emailBox">
+   <label for="emailAddress">Enter email address</label><br>
+   <input id="emailAddress" type="email" size="64" maxLength="64" required
+          placeholder="username@gmail.com" pattern=".+@beststartupever.com"
+          title="Please provide only a Best Startup Ever corporate e-mail address">
+ </div>
+</p>
+
+</form>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+</p>
+    <button type="submit">Login</button>
+    
+  </div>
+
+  
+</form>
+

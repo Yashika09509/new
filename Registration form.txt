@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        
+        <form method="post" target="#" onsubmit="return validate()">
+        <h1>Registration Form</h1>
+        <label for="uname"><b>First name</b></label></p>
+    <input type="text" placeholder="Enter First name" name="uname" required>
+<label for="uname"><b></p>Last name</b></label></p>
+    <input type="text" placeholder="Enter Last name" name="uname" required>
+        
+      	
+        
+        
+
+
+
+</script>
+
+<form ... onsubmit="return checkForm(this);">
+</p>
+<form>
+ <div class="emailBox">
+   <label for="emailAddress">Enter E-mail address</label><br></p>
+   <input id="emailAddress" type="email" size="64" maxLength="64" required
+          placeholder="username@gmail.com" pattern=".+@beststartupever.com"
+          title="Please provide only a Best Startup Ever corporate e-mail address">
+ </div>
+
+</p>
+
+    
+
+
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+   </p> 
+         
+          <input
+    type="text"
+    pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+    required
+>
+﻿
+</div>
+
+
+ <label for="pass">Confirm Password</label>
+</p> <input type="password" id="pass" name="password"
+</p>
+</form>
+</p>
+<label for="uname"><b></p>Phone number</b></label></p>
+    <input type="text" placeholder="Enter Phone number" name="uname" required>
+        
+      	
+</form>
+</p>
+<button type="submit" form="nameform" value="Submit">Submit</button>
+<button type="cancel" form="nameform" value="cancel">Cancel</button>
+
+
+
+    
+        
+            
+      	
+</body>
+</html>
